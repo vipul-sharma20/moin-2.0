@@ -1,0 +1,157 @@
+#moin-ticket-form dd {
+    margin-top: .1em;
+}
+#moin-ticket-form dt {
+    margin-top: .1em;
+    font-size: 14px;
+}
+dd input[type="radio"] {
+    display: none;
+}
+label.moin-inline-label {
+    padding-left: 25px;
+    padding-right: 10px;
+    height: 15px;
+    display: inline-block;
+    line-height: 20px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+dd input:checked + label {
+    background-position: 0 -15px;
+}
+label.moin-inline-label {
+    background-image: url("../img/radiobutton.png");
+}
+#f_meta_tags, #f_meta_summary {
+    transition: all .3s ease-in-out;
+    outline: none;
+    width: 20em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 25px;
+    padding: 3px 0 3px 3px;
+    margin: 5px 1px 3px 0;
+    border: 1px solid #ddd;
+}
+#f_meta_tags:focus, #f_meta_summary:focus {
+    box-shadow: 0 0 5px #51cbee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 25px;
+    padding: 3px 0 3px 3px;
+    margin: 5px 1px 3px 0;
+    border: 1px solid #51cbee;
+}
+.moin-ticket-submit input[type=submit], #f_submit_update, #f_submit_update_negate_status {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: auto;
+    background-color: #1b436d;
+    height: 40px;
+    color: #ffffff;
+    border: 2px solid;
+}
+select {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    user-select: none;
+}
+.moin-ticket-submit {
+    clear: both;
+}
+#f_message {
+    width: 100%;
+    height: 150px;
+}
+h2 {
+    border-bottom: none;
+}
+dt label {
+    padding-top: 5px;
+}
+dl dd {
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.moin-ticket-link {
+    padding-left: 150px;
+}
+.moin-ticket-tags {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: block;
+}
+#ticket-results{
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#moin-ticket-layout {
+    white-space: nowrap;
+    float: left;
+    min-width: 50%;
+    min-height: 50%;
+    text-align: left;
+}
+.moin-ticket-subtext {
+    margin-top: 5px;
+    font-size: 8pt;
+    color: #7c7c7f;
+}
+.comment-reply {
+    width: 50%;
+    height: 20%;
+}
+.comment-tip {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border: 10px solid #E5E5E5;
+}
+.comment-tip-left {
+    top: 10px;
+    left: -20px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+.comment-content {
+    position: relative;
+    max-width: 100%;
+    height: 70px;
+    margin: 10px 10px;
+    padding: 5px;
+    background-color: #fcfcff;
+    border-radius: 10px;
+    border: 2px solid #E5E5E5;
+    box-shadow: 2px 2px 2px #888888;
+}
+.comment-content .message {
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.message .message-markup {
+    background-color: #F9F9FF;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    padding: 5px;
+}
+#save, #cancel {
+    display:inline-block;
+}
